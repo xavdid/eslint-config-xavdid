@@ -5,6 +5,7 @@
   "main": "index.js",
   "files": [],
   "scripts": {
+    "test": "echo cool",
     "release": "npx np"
   },
   "author": "David Brownman <beamneocube@gmail.com> (https://davidbrownman.com)",
