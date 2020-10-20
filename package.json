@@ -1,10 +1,11 @@
 {
   "name": "eslint-config-xavdid",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A custom eslint config, just how I like it",
   "main": "index.js",
+  "files": [],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "npx np"
   },
   "author": "David Brownman <beamneocube@gmail.com> (https://davidbrownman.com)",
   "license": "ISC",
