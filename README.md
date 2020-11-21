@@ -11,7 +11,7 @@ This also includes some great plugins that don't come standard with Standard, su
 ## Installation
 
 ```
-yarn add eslint-config-xavdid
+yarn add --dev eslint-config-xavdid
 ```
 
 You'll also need to manually install the `peerDependencies`. Run the following:
