@@ -14,13 +14,7 @@ This also includes some great plugins that don't come standard with Standard, su
 yarn add --dev eslint-config-xavdid
 ```
 
-You'll also need to manually install the `peerDependencies`. Run the following:
-
-```
-npx install-peerdeps --dev eslint-config-xavdid
-```
-
-Keep an eye on [eslint/eslint#13481](https://github.com/eslint/eslint/issues/13481), which will (hopefully) make the installation process a lot simpler.
+You'll also need to make sure `typescript` and `eslint` are available.
 
 ## Usage
 

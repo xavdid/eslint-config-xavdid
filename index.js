@@ -7,12 +7,9 @@ module.exports = {
     "plugin:react-hooks/recommended",
     "plugin:jest/recommended",
     "plugin:jest/style",
-    // prettier stuff should go last, since it turns off rules others may have turned on
-    // order in the prettier section doesn't matter
+    // prettier should go last, since it turns off rules others may have turned on
+    // the root "prettier" has all rules for its various plugins (standard, react, etc)
     "prettier",
-    "prettier/@typescript-eslint",
-    "prettier/react",
-    "prettier/standard",
   ],
   overrides: [
     {
@@ -26,7 +23,12 @@ module.exports = {
       },
     },
   ],
-  // this will be the default in the future
+  // `eslint-config-react` gives warnings if:
+  // * the below property isn't here
+  // * react isn't installed
+  // so there's basically always some warning if we ship with react plugin enabled
+  // lint is mostly in-editor and in CI, so that's fine
+  // it seems like in the future, "detect" will be the default and we may not need this
   settings: {
     react: {
       version: "detect",
