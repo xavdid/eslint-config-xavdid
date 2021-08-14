@@ -9,7 +9,7 @@ _published `2021-08-14`_
 _published `2021-08-14`_
 
 - :exclamation: deps are now properly out of `peerDependencies`
-- :exclamation updated plugins, which will likely mean changed rules
+- :exclamation: updated plugins, which will likely mean changed rules
 
 ## 1.0.0
 
