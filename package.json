@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-xavdid",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A custom eslint config, just how I like it",
   "main": "index.js",
   "files": [],
