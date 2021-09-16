@@ -3,11 +3,14 @@
   "version": "2.0.1",
   "description": "A custom eslint config, just how I like it",
   "main": "index.js",
-  "files": [],
   "scripts": {
     "test": "echo cool",
     "release": "npx np"
   },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "author": "David Brownman <beamneocube@gmail.com> (https://xavd.id)",
   "license": "ISC",
   "peerDependencies": {
@@ -22,8 +25,6 @@
     "eslint-plugin-import": "^2",
     "eslint-plugin-jest": "^24.1.0",
     "eslint-plugin-node": "^11",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-react": "^7.21.4",
-    "eslint-plugin-react-hooks": "^4.1.2"
+    "eslint-plugin-promise": "^5.1.0"
   }
 }
