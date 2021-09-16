@@ -1,6 +1,6 @@
 # eslint-config-xavdid
 
-Format your code just like I do.
+Lint your code just like I do.
 
 ## Contents
 
