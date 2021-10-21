@@ -1,3 +1,13 @@
+## 1.0.0
+
+_published `SOON`_
+
+- Initial release under the new package name, `@xavdid/eslint-config`.
+
+---
+
+The below describes the changelog for the original package, published as `eslint-config-xavdid`.
+
 ## 3.0.0
 
 _published `2021-09-15`_

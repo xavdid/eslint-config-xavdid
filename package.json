@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-xavdid",
-  "version": "3.0.0",
+  "name": "@xavdid/eslint-config",
+  "version": "1.0.0-beta.1",
   "description": "A custom eslint config, just how I like it",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,8 @@
     "eslint-plugin-import": "^2",
     "eslint-plugin-jest": "^24.1.0",
     "eslint-plugin-node": "^11",
-    "eslint-plugin-promise": "^5.1.0"
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }
