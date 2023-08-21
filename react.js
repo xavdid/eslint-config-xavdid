@@ -1,8 +1,8 @@
-const base = require("./common/_base");
+const { plugins, rules } = require("./common/_base");
 
 module.exports = {
   extends: [
-    ...base,
+    ...plugins,
 
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
@@ -25,6 +25,7 @@ module.exports = {
       },
     },
   ],
+  rules,
   settings: {
     react: {
       version: "detect",
