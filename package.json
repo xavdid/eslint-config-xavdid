@@ -7,6 +7,11 @@
     "test": "echo cool",
     "release": "npx np"
   },
+  "files": [
+    "index.js",
+    "react.js",
+    "common/_base.js"
+  ],
   "keywords": [
     "eslint",
     "eslintconfig"
